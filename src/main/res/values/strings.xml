@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">carSlot</string>
+    <string name="Comfirm">Confirm</string>
+    <string name="Delete">Delete</string>
+    <string name="Name">Name</string>
+    <string name="logintext">Login</string>
+    <string name="passwordtext">Password</string>
+    <string name="hintusername">username</string>
+    <string name="hintpassword">password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ss">androidx.navigation.fragment.NavHostFragment</string>
+</resources>
