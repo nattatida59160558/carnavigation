@@ -40,6 +40,19 @@ class CarFragment : Fragment() {
             textName.visibility = View.GONE
             buttonCon.visibility = View.GONE
             buttonDel.visibility = View.GONE
+            buttonSlot1.setText("Slot 1")
+            buttonSlot1.setTextColor(Color.WHITE)
+            buttonSlot1.setBackgroundColor(Color.GREEN)
+
+            buttonSlot2.setText("Slot 2")
+            buttonSlot2.setTextColor(Color.WHITE)
+            buttonSlot2.setBackgroundColor(Color.GREEN)
+            buttonSlot3.setText("Slot 3")
+            buttonSlot3.setTextColor(Color.WHITE)
+            buttonSlot3.setBackgroundColor(Color.GREEN)
+                    invalidateAll()
+
+
         }
         binding.apply {
             buttonSlot1.setOnClickListener {
@@ -143,7 +156,7 @@ class CarFragment : Fragment() {
                         myCar1?.brand = textBrand.text.toString()
                         myCar1?.name = textName.text.toString()
                         buttonSlot1.setText(myCar1?.name.toString())
-                        buttonSlot1.setBackgroundColor(Color.GREEN)
+                        buttonSlot1.setBackgroundColor(Color.GRAY)
                         invalidateAll()
                     }
                     else if (slot == 2) {
@@ -151,7 +164,7 @@ class CarFragment : Fragment() {
                         myCar2?.brand = textBrand.text.toString()
                         myCar2?.name = textName.text.toString()
                         buttonSlot2.setText(myCar2?.name.toString())
-                        buttonSlot2.setBackgroundColor(Color.GREEN)
+                        buttonSlot2.setBackgroundColor(Color.GRAY)
                         invalidateAll()
                     }
                     else{
@@ -159,7 +172,7 @@ class CarFragment : Fragment() {
                         myCar3?.brand = textBrand.text.toString()
                         myCar3?.name = textName.text.toString()
                         buttonSlot3.setText(myCar3?.name.toString())
-                        buttonSlot3.setBackgroundColor(Color.GREEN)
+                        buttonSlot3.setBackgroundColor(Color.GRAY)
                         invalidateAll()
                     }
 
@@ -178,8 +191,8 @@ class CarFragment : Fragment() {
                         myCar1?.brand = ""
                         myCar1?.name = ""
                         buttonSlot1.setText("Slot 1")
-                        buttonSlot1.setTextColor(Color.RED)
-                        buttonSlot1.setBackgroundColor(Color.YELLOW)
+                        buttonSlot1.setTextColor(Color.WHITE)
+                        buttonSlot1.setBackgroundColor(Color.GREEN)
                         invalidateAll()
                     }
                     else if (slot == 2) {
@@ -187,8 +200,8 @@ class CarFragment : Fragment() {
                         myCar2?.brand = ""
                         myCar2?.name = ""
                         buttonSlot2.setText("Slot 2")
-                        buttonSlot2.setTextColor(Color.RED)
-                        buttonSlot2.setBackgroundColor(Color.YELLOW)
+                        buttonSlot2.setTextColor(Color.WHITE)
+                        buttonSlot2.setBackgroundColor(Color.GREEN)
                         invalidateAll()
                     }
                     else{
@@ -196,8 +209,8 @@ class CarFragment : Fragment() {
                         myCar3?.brand = ""
                         myCar3?.name = ""
                         buttonSlot3.setText("Slot 3")
-                        buttonSlot3.setTextColor(Color.RED)
-                        buttonSlot3.setBackgroundColor(Color.YELLOW)
+                        buttonSlot3.setTextColor(Color.WHITE)
+                        buttonSlot3.setBackgroundColor(Color.GREEN)
                         invalidateAll()
                     }
                 }
