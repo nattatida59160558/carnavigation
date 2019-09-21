@@ -3,4 +3,6 @@
     <dimen name="magin10">10dp</dimen>
     <dimen name="logologin">32dp</dimen>
     <dimen name="loginsizenew">24sp</dimen>
+    <dimen name="paddinglogo">15dp</dimen>
+    <dimen name="loginsize">18dp</dimen>
 </resources>

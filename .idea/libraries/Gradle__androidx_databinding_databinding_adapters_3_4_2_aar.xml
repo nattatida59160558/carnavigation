@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.databinding:databinding-adapters:3.4.2@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7bcba054e2115663f2009d33e4aff8bf/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7bcba054e2115663f2009d33e4aff8bf/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5efe43060eab87065be903a80c8e79db/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5efe43060eab87065be903a80c8e79db/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
