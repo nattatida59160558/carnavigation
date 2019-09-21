@@ -31,11 +31,19 @@ class LoginFragment : Fragment() {
     ): View? {
 
 
+
         val binding = DataBindingUtil.inflate<FragmentLoginBinding>(inflater, R.layout.fragment_login,container,false)
             binding.apply {
                 show.visibility = View.GONE
                 invalidateAll()
             }
+        boo=false
+        binding.apply{
+            inputusername.text.clear()
+            inputpassword.text.clear()
+            invalidateAll()
+        }
+
 
         binding.loginbtn.setOnClickListener { view ->
             binding.apply{
@@ -50,7 +58,6 @@ class LoginFragment : Fragment() {
             }
             else{
                 binding.apply {
-                    show.setText(username.toString())
                     show.visibility = View.VISIBLE
                     invalidateAll()
                 }
