@@ -13,7 +13,7 @@
         tools:context=".LoginFragment">
 
         <TextView
-            android:id="@+id/logotext"
+            android:id="@+id/infotext"
             android:layout_width="387dp"
             android:layout_height="61dp"
             android:layout_marginStart="8dp"
@@ -58,7 +58,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/textView2"
-            app:layout_constraintTop_toBottomOf="@+id/logotext" />
+            app:layout_constraintTop_toBottomOf="@+id/infotext" />
 
         <TextView
             android:id="@+id/textView3"
