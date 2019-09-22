@@ -2,7 +2,7 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/navigation"
+    android:id="@+id/infoFragment"
     app:startDestination="@id/loginFragment">
     <fragment
         android:id="@+id/loginFragment"
@@ -10,10 +10,14 @@
         android:label="fragment_login">
         <action
             android:id="@+id/action_loginFragment_to_carFragment"
-            app:destination="@+id/carFragment" />
+            app:destination="@id/carFragment" />
     </fragment>
     <fragment
         android:id="@+id/carFragment"
         android:name="com.example.carslot.CarFragment"
         android:label="CarFragment" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.carslot.infoFragment"
+        android:label="infoFragment" />
 </navigation>
